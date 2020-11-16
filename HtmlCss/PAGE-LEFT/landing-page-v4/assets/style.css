@@ -1,0 +1,520 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+@font-face {
+	src: url(./NunitoSans-Regular.ttf);
+	font-family: nunito;
+}
+body {
+	font-family: nunito;
+	overflow-x: hidden;
+}
+/* Header */
+header {
+	background-image: url(./img/Mask\ Group\ 4.png);
+	height: fit-content;
+	width: 100vw;
+	color: white;
+}
+header p {
+	color: white;
+	margin: 0;
+}
+nav {
+	margin-top: 50px;
+}
+nav .logo {
+	font-size: 24px;
+}
+header .btn {
+	padding: 5px 30px;
+	border-radius: 10px;
+}
+.btn-login {
+	border: 1px solid white;
+	margin-right: 25px;
+}
+.btn-signup {
+	background-color: white;
+}
+.btn-signup p {
+	color: #6379f4;
+}
+.big-title {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	margin-top: 10%;
+}
+.big-title h1 {
+	font-size: 60px;
+}
+.big-title h1 {
+	width: 45%;
+}
+.big-title > p {
+	width: 35%;
+	margin: 40px 0;
+}
+.btn-tryfree {
+	background-color: white;
+	margin-bottom: 150px;
+}
+.btn-tryfree p {
+	padding: 4px 0;
+	color: #6379f4;
+}
+/* End Header */
+
+/* Section One*/
+/* Why Zwallet */
+section.bg-one {
+	background-color: #fafcff;
+	height: fit-content;
+}
+.section-one {
+	padding: 80px 0;
+}
+.why-zwallet {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.why-zwallet p {
+	margin-top: 20px;
+	text-align: center;
+	width: 45%;
+}
+.zwallet-service {
+	display: flex;
+	justify-content: space-between;
+	padding: 20px;
+	margin-top: 20px;
+}
+.support,
+.data-privacy,
+.easy-download {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	width: 30%;
+	height: 350px;
+	padding: 20px;
+}
+.zwallet-service h4 {
+	margin-top: 20px;
+	margin-bottom: 40px;
+}
+.data-privacy {
+	border-radius: 20px;
+	background-color: white;
+}
+/* End Section One */
+
+/* Section Two */
+section.bg-two {
+	background-color: #eff0fc;
+	padding: 50px 0;
+}
+
+.partner {
+	display: flex;
+	justify-content: space-between;
+}
+.partner > img {
+	cursor: pointer;
+}
+/* End Section Two */
+
+/* Section Three */
+section.bg-three {
+	background-color: #fafcff;
+	padding: 80px 0;
+}
+.money {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+.money p {
+	width: 44%;
+	text-align: center;
+}
+.nominal {
+	padding: 30px 70px;
+	border-radius: 60px;
+	color: #6379f4;
+	background-color: #eff0fc;
+}
+.transfer-status {
+	margin: 30px 0;
+}
+/* End Section Three */
+
+/* Section Four */
+.bg-four {
+	background-color: #eff0fc;
+	position: relative;
+}
+.zwallet-features {
+	display: flex;
+}
+.image-phone img {
+	width: 100%;
+}
+.zwallet-features h1 {
+	width: 40%;
+}
+.feature-box {
+	margin: 70px 0;
+}
+.card-features {
+	width: 70%;
+	padding: 25px 25px;
+	background: #ffffff;
+	box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
+	margin: 20px 0;
+	border-radius: 25px;
+}
+.card-features p {
+	margin: 5px;
+	font-size: 18px;
+	font-weight: 600;
+}
+
+.card-features .desc-feature {
+	color: rgba(58, 61, 66, 0.9);
+	font-size: 15px;
+	font-weight: 400;
+}
+/* End Section Four */
+
+/* Section Five */
+.bg-five {
+	background-color: #fafcff;
+	padding: 70px 0;
+}
+.user-saying {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.user-saying p {
+	text-align: center;
+	width: 44%;
+	margin: 30px 0;
+}
+.container-box {
+	display: flex;
+	align-items: center;
+}
+.box-user {
+	display: flex;
+	flex-direction: column;
+	margin: auto;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	width: 80%;
+	padding: 50px;
+	background: #ffffff;
+	box-shadow: 0px 5px 70px rgba(197, 197, 197, 0.15);
+	border-radius: 30px;
+}
+.name-user {
+	font-size: 18px;
+	font-weight: 600;
+	margin-top: 10px;
+}
+/* End Section Five */
+
+/* Footer */
+footer {
+	color: white;
+	background: #6379f4;
+	padding: 40px 0;
+}
+footer .end-footer {
+	display: flex;
+	justify-content: space-between;
+}
+footer p {
+	color: rgba(239, 239, 239, 0.75);
+	font-size: 14px;
+}
+.text-footer {
+	width: 20%;
+	margin: 40px 0;
+}
+footer .contact {
+	display: flex;
+}
+.contact p {
+	color: white;
+}
+.phone-footer {
+	margin-right: 30px;
+}
+/* End Footer */
+/* Dekstop */
+@media screen and (max-width: 1200px) {
+	.big-title h1 {
+		font-size: 40px;
+	}
+	.big-title h1 {
+		width: 75%;
+	}
+	.big-title > p {
+		width: 45%;
+		margin: 40px 0;
+	}
+}
+
+/* Latop */
+@media screen and (max-width: 922px) {
+	.big-title h1 {
+		font-size: 40px;
+	}
+	.big-title h1 {
+		width: 85%;
+	}
+	.big-title > p {
+		width: 55%;
+		margin: 40px 0;
+	}
+	.why-zwallet p {
+		margin-top: 16px;
+		text-align: center;
+		width: 65%;
+	}
+	.zwallet-service {
+		padding: 15px;
+	}
+	.support,
+	.data-privacy,
+	.easy-download {
+		padding: 0 10px;
+		height: 290px;
+	}
+	.support,
+	.data-privacy,
+	.easy-download p {
+		font-size: 15px;
+	}
+	.support h4,
+	.data-privacy h4,
+	.easy-download h4 {
+		font-weight: 700;
+		font-size: 18px;
+	}
+	.money p {
+		width: 54%;
+		text-align: center;
+	}
+	.nominal {
+		padding: 20px 50px;
+	}
+	.nominal h1 {
+		font-size: 32px;
+		margin: 0;
+	}
+}
+
+/* Tablet */
+@media screen and (max-width: 786px) {
+	.big-title h1 {
+		font-size: 40px;
+	}
+	.big-title h1 {
+		width: 95%;
+	}
+	.big-title > p {
+		width: 85%;
+		margin: 40px 0;
+	}
+	.why-zwallet h1 {
+		text-align: center;
+		margin-top: 16px;
+		width: 100%;
+	}
+	.why-zwallet p {
+		margin-top: 12px;
+		text-align: center;
+		width: 100%;
+	}
+	.support,
+	.data-privacy,
+	.easy-download {
+		padding: 0 10px;
+		height: 260px;
+	}
+	.support,
+	.data-privacy,
+	.easy-download p {
+		font-size: 13px;
+	}
+	.support h4,
+	.data-privacy h4,
+	.easy-download h4 {
+		font-size: 17px;
+		margin-bottom: 10px;
+	}
+	.big-title {
+		margin-top: 90px;
+	}
+	header .btn {
+		padding: 5px 30px;
+	}
+	.btn-login {
+		margin-right: 25px;
+	}
+	.btn-signup p {
+		color: #6379f4;
+		font-size: 14px;
+	}
+	section.bg-three {
+		background-color: #fafcff;
+		padding: 40px 0;
+	}
+	.money p {
+		width: 84%;
+		text-align: center;
+	}
+	.feature-box {
+		margin: 50px 0;
+		margin-left: -40px;
+	}
+	.zwallet-features h1 {
+		width: 100%;
+	}
+	.card-features {
+		width: 100%;
+		padding: 10px 15px;
+		margin: 10px 0;
+	}
+	.bg-five {
+		background-color: #fafcff;
+		padding: 50px 0;
+	}
+	.user-saying p {
+		text-align: center;
+		width: 80%;
+		margin: 15px 0;
+	}
+	.box-user {
+		display: flex;
+		flex-direction: column;
+		margin: auto;
+		justify-content: center;
+		align-items: center;
+		text-align: center;
+		width: 100%;
+		padding: 10px;
+	}
+}
+
+/* Phone */
+@media screen and (max-width: 576px) {
+	.big-title h1 {
+		font-size: 40px;
+	}
+	.big-title h1 {
+		width: 100%;
+	}
+	.big-title > p {
+		width: 100%;
+	}
+	.btn-login {
+		margin-right: 5px;
+	}
+	.why-zwallet h1 {
+		margin-top: 10px;
+		font-size: 26px;
+	}
+	.why-zwallet p {
+		margin-top: 12px;
+		text-align: center;
+		width: 100%;
+	}
+	.zwallet-service {
+		display: flex;
+		justify-content: space-between;
+		flex-wrap: wrap;
+		margin-top: 20px;
+	}
+	.support,
+	.data-privacy,
+	.easy-download {
+		width: 100%;
+		margin: 10px 0;
+		height: 210px;
+	}
+	.support,
+	.easy-download {
+		border-radius: 20px;
+		background-color: white;
+	}
+
+	.section-one {
+		padding: 20px 0;
+	}
+	footer {
+		padding: 20px 0;
+	}
+	.text-footer {
+		width: 40%;
+		margin: 40px 0;
+	}
+	footer .contact {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: flex-end;
+	}
+	.contact p {
+		font-size: 12px;
+	}
+	.phone-footer {
+		margin-right: 5px;
+	}
+
+	.nominal h1 {
+		font-size: 24px;
+		margin: 0;
+	}
+	.feature-box {
+		margin: 50px 0;
+		margin-left: 0;
+	}
+	.image-phone img {
+		display: none;
+	}
+	.container-box img {
+		width: 70px;
+		height: 70px;
+	}
+	.box-user img {
+		width: 120px;
+		height: 120px;
+	}
+	.money p {
+		width: 100%;
+		text-align: center;
+	}
+	.box-user p {
+		font-size: 13px;
+	}
+	.user-saying p {
+		width: 100%;
+		margin: 20px 0;
+	}
+
+	.text-footer {
+		width: 100%;
+		margin: 20px 0;
+	}
+}

@@ -1,0 +1,475 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+@font-face {
+	src: url(./font/NunitoSans-Regular.ttf);
+	font-family: nunitosans;
+}
+body {
+	background: rgba(105, 126, 248, 0.2);
+	font-family: nunitosans;
+}
+nav {
+	position: top;
+	left: 0;
+	right: 0;
+	height: 70px;
+	background-color: rgb(255, 255, 255);
+	border-radius: 0 0 10px 10px;
+}
+.logo {
+	font-size: 24px;
+	padding: 18px;
+	color: #6379f4;
+	margin-left: -16px;
+}
+.profile-bar {
+	display: flex;
+	float: right;
+	margin: 10px 0;
+}
+.name-phone {
+	display: flex;
+	flex-direction: column;
+	margin: 0 20px;
+}
+.name-phone > .name {
+	font-weight: 600;
+	font-size: 19px;
+}
+.name-phone > .phone {
+	margin-top: 2px;
+	font-size: 13px;
+}
+.name-phone p {
+	margin: 0;
+}
+/* Main */
+/* Dashboard */
+.dashboard {
+	width: 100%;
+	height: 490px;
+	background-color: white;
+	box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
+	display: flex;
+	flex-direction: column;
+	border-radius: 20px;
+	padding: 50px 35px;
+}
+
+.icon {
+	display: flex;
+	margin-bottom: 20px;
+}
+.icon > p {
+	margin-left: 20px;
+	font-size: 14px;
+}
+.log-out {
+	margin-top: 145px;
+}
+/* Balance */
+.balance {
+	width: 100%;
+	height: 142px;
+	background: #6379f4;
+	border-radius: 20px;
+	padding: 15px 0;
+	padding-right: 20px;
+}
+/* Nominal */
+.nominal {
+	padding: 8px 35px;
+}
+.nominal .money {
+	font-size: 28px;
+	font-weight: 700;
+	color: white;
+	margin-bottom: 5px;
+}
+.nominal p {
+	color: #dfdcdc;
+	margin-bottom: 0;
+	font-size: 15px;
+}
+
+/* Button */
+.button {
+	padding: 10px;
+}
+.btn {
+	color: white;
+}
+.button .transfer {
+	border: 1px solid white;
+	margin-bottom: 5px;
+	width: 120px;
+	height: 45px;
+	border-radius: 10px;
+	text-decoration: none;
+	background: rgba(255, 255, 255, 0.2);
+}
+.button .topup {
+	background: rgba(255, 255, 255, 0.2);
+	border: 1px solid white;
+	width: 120px;
+	height: 45px;
+	border-radius: 10px;
+	text-decoration: none;
+	margin-top: 10px;
+}
+.button img {
+	margin: 8px;
+}
+.button p {
+	color: white;
+	padding: 10px;
+	font-size: 14px;
+}
+/* Chart */
+.chart {
+	width: 55%;
+	height: 342px;
+	background-color: white;
+	box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
+	border-radius: 20px;
+}
+.chart p {
+	margin-bottom: 2px;
+}
+.chart .money {
+	font-weight: 600;
+	font-size: 18px;
+}
+
+.graphic-image {
+	display: flex;
+	align-items: flex-end;
+	margin: 0 12%;
+}
+.graphic-image .icon {
+	border-radius: 10px;
+	background: #6379f4;
+	margin-left: 35px;
+}
+.graphic-image .one {
+	width: 9px;
+	height: 160px;
+}
+.graphic-image .two {
+	width: 9px;
+	height: 65px;
+}
+.graphic-image .three {
+	width: 9px;
+	height: 95px;
+	background: #9da6b5;
+}
+.graphic-image .four {
+	position: relative;
+	width: 9px;
+	height: 125px;
+	background: #9da6b5;
+}
+.four > #money {
+	background: #ffffff;
+	box-shadow: 0px 4px 20px rgba(187, 187, 187, 0.25);
+	border-radius: 6px;
+	position: absolute;
+	top: -45px;
+	left: -35px;
+	font-size: 13px;
+	font-weight: 600;
+	color: #1ec15f;
+}
+.graphic-image .four::after {
+	content: "";
+	background: #6379f4;
+	width: 9px;
+	height: 9px;
+	border-radius: 50%;
+	box-shadow: 0 0 0 5px white;
+}
+.graphic-image .five {
+	width: 9px;
+	height: 85px;
+	background: #9da6b5;
+}
+.graphic-image .six {
+	width: 9px;
+	height: 140px;
+}
+.graphic-image .seven {
+	width: 9px;
+	height: 100px;
+	background: #9da6b5;
+}
+.day {
+	margin: 0 16%;
+	margin-top: -8px;
+}
+.day p {
+	margin: 0 9px;
+	color: #8f8f8f;
+	font-size: 15px;
+}
+.history {
+	width: 43%;
+	height: 342px;
+	background-color: white;
+	box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
+	border-radius: 20px;
+	padding: 0 30px;
+	padding-top: 20px;
+}
+.identy {
+	margin-top: 10px;
+}
+.identy p {
+	padding: 0;
+	margin: 0;
+}
+.identy .name {
+	font-weight: 600;
+}
+.identy .status {
+	color: #7a7886;
+	font-size: 13px;
+}
+.list-two,
+.list-three,
+.list-four {
+	margin-top: 12px;
+}
+.name-status {
+	display: block;
+	margin-left: 10px;
+}
+.money-subscription {
+	color: #ff5b37;
+	align-self: center;
+}
+.money-transfer {
+	color: #1ec15f;
+	align-self: center;
+}
+/* Footer */
+footer {
+	margin-top: 20px;
+	background: #6379f4;
+	padding: 3px 0;
+	width: 100%;
+}
+.contact {
+	justify-content: space-between;
+	align-items: center;
+}
+footer p {
+	margin: 13px 0;
+	color: white;
+	font-size: 13px;
+}
+/* Today card */
+.card-pressed {
+	position: absolute;
+	width: 25%;
+	top: 80px;
+	right: 7%;
+}
+.today-card {
+	height: fit-content;
+	padding: 40px 25px;
+	background: #ffffff;
+	box-shadow: 0px 0px 70px rgba(99, 99, 99, 0.15);
+	border-radius: 20px;
+}
+.cob2 {
+	border: 1px solid;
+}
+.today-card,
+.today-card p {
+	margin: 0;
+}
+.today,
+.week {
+	background: #ffffff;
+	box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
+	border-radius: 10px;
+	margin: 10px 0;
+	padding: 10px;
+}
+
+.today.one,
+.week.one {
+	margin-top: 20px;
+}
+.today.two {
+	margin-bottom: 30px;
+}
+.status {
+	font-size: 12px;
+	color: #7a7a7a;
+	padding-bottom: 2px;
+}
+.desc-money {
+	font-weight: 700;
+}
+/* Laptop */
+@media screen and (max-width: 992px) {
+	.card-pressed {
+		width: 50%;
+	}
+	.dashboard {
+		height: fit-content;
+		margin-bottom: 8px;
+		padding: 20px 35px;
+	}
+
+	.icon {
+		display: flex;
+		margin-bottom: 20px;
+	}
+	.icon > p {
+		margin-left: 20px;
+		font-size: 14px;
+	}
+	.log-out {
+		margin-top: 0;
+	}
+}
+
+/* Tablet */
+@media screen and (max-width: 768px) {
+	.card-pressed {
+		width: 75%;
+	}
+	.wrap {
+		flex-wrap: wrap;
+	}
+	.chart {
+		height: fit-content;
+		width: 100%;
+		margin-bottom: 10px;
+	}
+	.history {
+		width: 100%;
+		margin-bottom: 10px;
+	}
+
+	.profile-bar {
+		margin: 10px 0;
+	}
+	.name-phone > .name {
+		font-weight: 600;
+		font-size: 14px;
+	}
+	.name-phone > .phone {
+		margin-top: 4px;
+		font-size: 12px;
+	}
+}
+
+/* Phone */
+@media screen and (max-width: 576px) {
+	.card-pressed {
+		right: 0;
+	}
+	.card-pressed {
+		width: 100%;
+	}
+	.icon {
+		margin-bottom: 5px;
+	}
+	.log-out {
+		margin-top: 0;
+		padding-bottom: -5px;
+	}
+	.income,
+	.expense {
+		width: fit-content;
+	}
+	.day {
+		margin-bottom: 10px;
+	}
+	.chart-responsive {
+		display: flex;
+		justify-content: space-between;
+	}
+	.profile-bar {
+		display: flex;
+		float: right;
+		margin: 13px 0;
+	}
+	.name-phone > .name {
+		font-weight: 600;
+		font-size: 13px;
+	}
+	.name-phone > .phone {
+		margin-top: 5px;
+		font-size: 10px;
+	}
+	.coba {
+		order: 2;
+	}
+	.contact {
+		order: 1;
+	}
+}
+
+@media screen and (max-width: 390px) {
+	.profile-bar {
+		margin-left: -60px;
+	}
+	.graphic-image {
+		margin: 0;
+	}
+	.graphic-image .icon {
+		margin-left: 32px;
+	}
+	.day p {
+		margin: 0 8px;
+		color: #8f8f8f;
+		font-size: 15px;
+	}
+	.day {
+		margin: 0 13px;
+		margin-bottom: 15px;
+	}
+	.balance {
+		padding: 8px 0;
+		padding-right: 0;
+		height: fit-content;
+	}
+	.nominal .money {
+		font-size: 18px;
+		font-weight: 600;
+		margin-bottom: 5px;
+	}
+	.nominal p {
+		font-size: 12px;
+	}
+	.nominal {
+		padding: 11px 10px;
+	}
+	.button .transfer {
+		width: 100px;
+		height: 40px;
+		position: relative;
+	}
+	.button .topup {
+		width: 100px;
+		position: relative;
+		height: 40px;
+	}
+	.button p {
+		position: absolute;
+		color: white;
+		bottom: -18px;
+		left: 24px;
+		font-size: 14px;
+	}
+	footer .coba {
+		text-align: center;
+	}
+}

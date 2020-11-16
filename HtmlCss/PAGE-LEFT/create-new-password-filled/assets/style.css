@@ -1,0 +1,206 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+@font-face {
+	src: url(./font/NunitoSans-Regular.ttf);
+	font-family: nunito;
+}
+body {
+	font-family: nunito;
+}
+.background {
+	height: fit-content;
+	width: 56%;
+	left: 0;
+	top: 0;
+	position: absolute;
+}
+.background img {
+	object-fit: fill;
+	height: 100vh;
+	width: 100%;
+}
+
+/*Left Side*/
+.left-side {
+	height: fit-content;
+}
+.logo {
+	color: white;
+	font-size: 28px;
+	font-weight: 700;
+	margin-top: 40px;
+}
+.left-side img {
+	width: 440px;
+	margin-top: -70px;
+}
+.app-that {
+	color: white;
+	font-size: 22px;
+	font-weight: 600;
+	margin-top: -30px;
+}
+.desc-zwallet {
+	color: rgba(255, 255, 255, 0.8);
+	width: 80%;
+	font-size: 15px;
+}
+
+/* Right Side */
+.right-side {
+	margin-top: 40px;
+	height: fit-content;
+	margin-bottom: 20px;
+}
+.side-right img {
+	margin-bottom: 40px;
+}
+.did-you {
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 30px;
+}
+.now-you-can {
+	width: 100%;
+	font-size: 14px;
+	color: rgba(58, 61, 66, 0.6);
+	margin-top: 10px;
+	margin-bottom: 35px;
+}
+input.password-blank {
+	font-size: 15px;
+	width: 100%;
+	padding: 10px 40px;
+	border: none;
+	border-bottom: 1px solid #6379f4;
+}
+.password-blank:focus {
+	outline: none;
+}
+.password {
+	position: relative;
+	margin: 70px 0;
+}
+.password img {
+	position: absolute;
+	top: 9px;
+}
+.password img.eye {
+	right: 0;
+}
+input.new-password-blank {
+	font-size: 15px;
+	width: 100%;
+	padding: 10px 40px;
+	border: none;
+	border-bottom: 1px solid #6379f4;
+}
+.new-password-blank:focus {
+	outline: none;
+}
+.new-password {
+	margin-bottom: 40px;
+	position: relative;
+}
+.new-password img {
+	position: absolute;
+	top: 9px;
+}
+.new-password img.eye {
+	right: 0;
+}
+.my-password,
+.dots {
+	position: absolute;
+	top: 10px;
+	left: 42px;
+	font-weight: 600;
+}
+button {
+	background: #6379f4;
+	font-size: 14px;
+	margin-top: 25px;
+	width: 100%;
+	height: 47px;
+	border-radius: 10px;
+	border: none;
+	box-shadow: 0px 6px 75px rgba(100, 87, 87, 0.05);
+}
+.submit p {
+	color: white;
+	padding: 12px;
+}
+button:focus {
+	outline: none;
+}
+/* End Right Side */
+@media screen and (max-width: 992px) {
+	.background {
+		height: 700px;
+	}
+	.background img {
+		height: 800px;
+		width: 100%;
+	}
+
+	.left-side img {
+		width: 400px;
+		margin-top: -50px;
+	}
+}
+@media screen and (max-width: 768px) {
+	.ledt-side {
+		height: 100%;
+	}
+	.background img {
+		height: 580px;
+		width: 100%;
+	}
+	.background {
+		width: 100%;
+		height: 99%;
+	}
+	.left-side img {
+		width: 330px;
+		margin-top: -30px;
+	}
+}
+@media screen and (max-width: 576px) {
+	.background img {
+		height: 580px;
+	}
+	.desc-zwallet {
+		width: 100%;
+	}
+}
+@media screen and (max-width: 380px) {
+	.logo {
+		font-size: 22px;
+		font-weight: 600;
+		margin-top: 30px;
+	}
+	.app-that {
+		font-size: 18px;
+		margin-top: -20px;
+	}
+	.desc-zwallet {
+		width: 100%;
+		font-size: 13px;
+	}
+	.left-side img {
+		margin-top: -50px;
+	}
+	.col-md-7 {
+		height: 100vh;
+	}
+	/* Right Side */
+	.did-you {
+		font-size: 19px;
+		font-weight: 400;
+	}
+	.to-reset {
+		font-size: 12px;
+	}
+}

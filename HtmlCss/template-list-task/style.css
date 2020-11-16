@@ -1,0 +1,59 @@
+body {
+	width: 100%;
+	height: fit-content;
+	background-image: linear-gradient(to bottom right, white, #a8a8a8);
+}
+
+.card-list {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	padding: 10px;
+	border-radius: 10px;
+	margin-bottom: 30px;
+	box-shadow: 2px 2px 5px black;
+}
+
+.card-list {
+	color: black;
+}
+.card-list.red {
+	background-color: rgb(255, 82, 82);
+	color: white;
+}
+.card-list.yellow {
+	background-color: rgb(255, 255, 93);
+	color: black;
+}
+.card-list:hover {
+	transform: scale(1.04);
+	transition: .4s;
+}
+a:hover {
+	text-decoration: none;
+}
+.explanation {
+	height: 50px;
+}
+.main-task,
+.optional-task {
+	width: 50%;
+}
+.explanation p {
+	font-size: 19px;
+	font-weight: 700;
+	margin: 0;
+	margin-left: 20px;
+}
+.icon-red {
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	background-color: red;
+}
+.icon-yellow {
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	background-color: yellow;
+}

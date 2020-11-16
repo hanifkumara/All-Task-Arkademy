@@ -1,0 +1,250 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/style.css">
+    <style>
+    </style>
+    <title>Home Pressed</title>
+</head>
+
+<body>
+    <nav>
+        <div class="container">
+            <div class="row justify-content-between">
+                <div class="col-6 ">
+                    <p class="logo">Zwallet</p>
+                </div>
+                <div class="col-6">
+                    <div class="profile-bar">
+                        <img src="./assets/img/Group 31.png" height="45" width="45" alt="profile">
+                        <div class="name-phone">
+                            <p class="name">Robert Chandler</p>
+                            <p class="phone">+62 8139 3877 7946</p>
+                        </div>
+                        <img src="./assets/img/bell.png" alt="bell" style="margin-top: 15px;" height="16">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <main>
+        <div class="container">
+            <div class="row mt-4">
+                <div class="col-md-12 col-lg-3">
+                    <div class="dashboard">
+                        <div class="icon grid">
+                            <img src="./assets/img/grid.png" alt="grid" width="19" height="19">
+                            <p>Dashboard</p>
+                        </div>
+                        <div class="icon arrow-up">
+                            <img src="./assets/img/arrow-up.png" alt="arrow-up" width="19" height="19">
+                            <p>Trasnfer</p>
+                        </div>
+                        <div class="icon plus">
+                            <img src="./assets/img/Rectangle 51.png" alt="active" width="3" height="22" style="position: relative; left: -36px;">
+                            <img src="./assets/img/plus-blue.png" alt="plus" width="19" height="19">
+                            <p style="color: #6379F4;">Top Up</p>
+                        </div>
+                        <div class="icon user">
+                            <img src="./assets/img/user.png" alt="user" width="19" height="19">
+                            <p>Profile</p>
+                        </div>
+                        <div class="d-flex log-out">
+                            <img src="./assets/img/log-out.png" alt="logout" width="19" height="19">
+                            <p style="margin-left: 20px;">Logout</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-12 col-lg-9">
+                    <div class="d-flex balance justify-content-between">
+                        <div class="nominal">
+                            <p style="margin-top: 5px;">Balance</p>
+                            <p class="money">Rp120.000</p>
+                            <p style="font-size: 13px;">+62 813-9387-7946</p>
+                        </div>
+                        <div class="button">
+                            <a href="#" class="transfer d-flex">
+                                <img src="./assets/img/arrow-up.png" alt="transfer" width="25" height="25">
+                                <p>Transfer</p>
+                            </a>
+                            <a href="#" class="topup d-flex">
+                                <img src="./assets/img/plus.png" alt="topup" width="25" height="25">
+                                <p>Top Up</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-between mt-2 wrap">
+                        <div class="chart">
+                            <div class="container">
+                                <div class="row my-4 mx-2 chart-responsive">
+                                    <div class="col-md-6 income">
+                                        <img src="./assets/img/money/arrow-up.png" alt="income" width="25" height="25">
+                                        <p>Income</p>
+                                        <p class="money">Rp2.120.000</p>
+                                    </div>
+                                    <div class="col-md-6 expense">
+                                        <img src="./assets/img/money/arrow-down.png" alt="expense" width="25" height="25">
+                                        <p>Expense</p>
+                                        <p class="money">Rp1.560.000</p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="graphic-image">
+                                        <span class="icon one"></span>
+                                        <span class="icon two"></span>
+                                        <span class="icon three"></span>
+                                        <span class="icon four">
+                                            <div id="money">
+                                                <p style="padding: 5px">+Rp65.000</p>
+                                            </div>
+                                        </span>
+                                        <span class="icon five"></span>
+                                        <span class="icon six"></span>
+                                        <span class="icon seven"></span>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="d-flex day">
+                                        <p>Sat</p>
+                                        <p>Sun</p>
+                                        <p>Mon</p>
+                                        <p>Tue</p>
+                                        <p>Wed</p>
+                                        <p>Thu</p>
+                                        <p>Fri</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="history">
+                            <div class="d-flex title-action justify-content-between">
+                                <p style="font-weight: 600;">Transaction History</p>
+                                <a href="#">See all</a>
+                            </div>
+                            <div class="identy">
+                                <div class="d-flex list-one justify-content-between">
+                                    <div class="d-flex">
+                                        <img src="./assets/img/container/prof/prof/1.png" alt="user1" width="50" height="50">
+                                        <div class="name-status">
+                                            <p class="name">Samuel Sushi</p>
+                                            <p class="status">Transfer</p>
+                                        </div>
+                                    </div>
+                                    <p class="money-transfer">+Rp50.000</p>
+                                </div>
+                                <div class="d-flex list-two justify-content-between">
+                                    <div class="d-flex">
+                                        <img src="./assets/img/container/logo2.png" alt="user2" width="50" height="50">
+                                        <div class="name-status">
+                                            <p class="name">Netflix</p>
+                                            <p class="status">Subscription</p>
+                                        </div>
+                                    </div>
+                                    <p class="money-subscription">-Rp149.000</p>
+                                </div><div class="d-flex list-three justify-content-between">
+                                    <div class="d-flex">
+                                        <img src="./assets/img/container/prof/prof/1-1.png" alt="user3" width="50" height="50">
+                                        <div class="name-status">
+                                            <p class="name">Christine Mar...</p>
+                                            <p class="status">Transfer</p>
+                                        </div>
+                                    </div>
+                                    <p class="money-transfer">+Rp150.000</p>
+                                </div><div class="d-flex list-four justify-content-between">
+                                    <div class="d-flex">
+                                        <img src="./assets/img/container/logo.png" alt="user4" width="50" height="50">
+                                        <div class="name-status">
+                                            <p class="name">Adobe Inc.</p>
+                                            <p class="status">Subscription</p>
+                                        </div>
+                                    </div>
+                                    <p class="money-subscription">+Rp249.000</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="row justify-content-between">
+                <div class="col-sm-12 col-md-6 coba">
+                    <p class="copyright">2020 Zwallet. All right reserved.</p>
+                </div>
+                <div class="col-sm-12 col-md-4 d-flex contact">
+                    <p class="phone">+62 5637 8882 9901</p>
+                    <p class="email">contact@zwallet.com</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Today Container -->
+    <div class="container card-pressed">
+        <div class="row">
+            <div class="col-md-12 coba2">
+                <div class="today-card">
+                    <p style="color: #7A7886; font-size: 14px;">Today</p>
+                    <div class="today one d-flex">
+                        <img src="./assets/img/money/arrow-up.png" alt="arrow-up" width="30" height="30">
+                        <div class="desc-today mx-3">
+                            <p class="status">Transfered from Joshua Lee</p>
+                            <p class="desc-money">Rp220.000</p>
+                        </div>
+                    </div>
+                    <div class="today two d-flex">
+                        <img src="./assets/img/money/arrow-down.png" alt="arrow-up" width="30" height="30">
+                        <div class="desc-today mx-3">
+                            <p class="status">Netflix subscription</p>
+                            <p class="desc-money">Rp149.000</p>
+                        </div>
+                    </div>
+                    <p style="color: #7A7886; font-size: 14px;">This Week</p>
+                    <div class="week one d-flex">
+                        <img src="./assets/img/money/arrow-up.png" alt="arrow-up" width="30" height="30">
+                        <div class="desc-week mx-3">
+                            <p class="status">Transfered from Joshua Lee</p>
+                            <p class="desc-money">Rp220.000</p>
+                        </div>
+                    </div>
+                    <div class="week two d-flex">
+                        <img src="./assets/img/money/arrow-down.png" alt="arrow-up" width="30" height="30">
+                        <div class="desc-week mx-3">
+                            <p class="status">Netflix subscription</p>
+                            <p class="desc-money">Rp149.000</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+        crossorigin="anonymous"></script>
+
+    <!-- Option 2: jQuery, Popper.js, and Bootstrap JS
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>

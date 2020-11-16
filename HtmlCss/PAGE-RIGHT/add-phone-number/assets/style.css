@@ -1,0 +1,281 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+@font-face {
+	src: url(./font/NunitoSans-Regular.ttf);
+	font-family: nunitosans;
+}
+body {
+	background: rgba(105, 126, 248, 0.2);
+	font-family: nunitosans;
+}
+nav {
+	position: top;
+	left: 0;
+	right: 0;
+	height: 70px;
+	background-color: rgb(255, 255, 255);
+	border-radius: 0 0 10px 10px;
+}
+.logo {
+	font-size: 24px;
+	padding: 18px;
+	color: #6379f4;
+	margin-left: -16px;
+}
+.profile-bar {
+	display: flex;
+	float: right;
+	margin: 10px 0;
+}
+.name-phone {
+	display: flex;
+	flex-direction: column;
+	margin: 0 20px;
+}
+.name-phone > .name {
+	font-weight: 600;
+	font-size: 19px;
+}
+.name-phone > .phone {
+	margin-top: 2px;
+	font-size: 13px;
+}
+.name-phone p {
+	margin: 0;
+}
+/* Main */
+/* Dashboard */
+.dashboard {
+	width: 100%;
+	height: fit-content;
+	background-color: white;
+	box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
+	display: flex;
+	flex-direction: column;
+	border-radius: 20px;
+	padding: 50px 35px;
+}
+
+.icon {
+	display: flex;
+	margin-bottom: 20px;
+}
+.icon > p {
+	margin-left: 20px;
+	font-size: 14px;
+}
+.log-out {
+	margin-top: 138px;
+}
+.log-out p {
+	margin: 0;
+}
+
+/* content */
+.change-container {
+	background-color: white;
+	width: 100%;
+	height: 490px;
+	border-radius: 20px;
+	padding: 40px;
+}
+.change-container p {
+	margin: 0;
+}
+.type-your {
+	padding-top: 20px;
+	line-height: 25px;
+	width: 40%;
+	font-size: 13px;
+	color: #7a7886;
+}
+.enter-phone {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.enter-phone .phone {
+	width: 56%;
+	position: relative;
+	left: 0;
+	margin-top: 50px;
+}
+.enter-phone .phone > img,
+.enter-phone .phone > p {
+	position: absolute;
+}
+.enter-phone .phone > img {
+	bottom: 5px;
+	left: 10px;
+}
+.enter-phone .phone > p {
+	left: 40px;
+	bottom: 5px;
+}
+.input-phone {
+	padding: 2px 75px;
+	width: 100%;
+	border: 0;
+	border-bottom: 1px solid rgba(169, 169, 169, 0.6);
+}
+/* Button */
+.btn-continue {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 50px;
+	width: 60%;
+	height: 50px;
+	background: #dadada;
+	box-shadow: 0px 6px 75px rgba(100, 87, 87, 0.05);
+	border-radius: 12px;
+}
+.btn-continue p {
+	margin: 0;
+	color: #88888f;
+}
+.button {
+	width: 100%;
+}
+button:focus {
+	outline: none;
+}
+button {
+	border: 0;
+}
+/* Footer */
+footer {
+	margin-top: 22px;
+	background: #6379f4;
+	padding: 3px 0;
+	width: 100%;
+}
+.contact {
+	justify-content: space-between;
+	align-items: center;
+}
+footer p {
+	margin: 13px 0;
+	color: white;
+	font-size: 13px;
+}
+/* Laptop */
+@media screen and (max-width: 992px) {
+	.input-change {
+		width: 80%;
+	}
+	.type-your {
+		width: 70%;
+	}
+	.dashboard {
+		height: fit-content;
+		margin-bottom: 8px;
+		padding: 20px 35px;
+	}
+	.icon {
+		margin-bottom: 20px;
+	}
+	.icon > p {
+		margin-left: 20px;
+		font-size: 14px;
+	}
+	.log-out {
+		margin-top: 0;
+	}
+}
+
+/* Tablet */
+@media screen and (max-width: 768px) {
+	.enter-phone .phone {
+		width: 80%;
+	}
+	.type-your {
+		width: 90%;
+	}
+	.personal-contact {
+		flex-direction: column;
+	}
+	.contact-info {
+		width: 100%;
+	}
+	.form-container {
+		width: 100%;
+	}
+	.profile-bar {
+		margin-left: -90px;
+	}
+	.name-phone > .name {
+		font-size: 14px;
+	}
+	.name-phone > .phone {
+		font-size: 12px;
+	}
+	.dashboard {
+		flex-direction: row;
+		justify-content: space-between;
+		height: fit-content;
+		padding: 20px 35px;
+	}
+	.active {
+		display: none;
+	}
+	.icon {
+		width: fit-content;
+		margin: auto;
+		margin: 0;
+	}
+	.log-out {
+		font-size: 14px;
+	}
+	.log-out p {
+		margin-left: 0 !important;
+	}
+	.icon > p {
+		margin-left: 2px;
+		font-size: 14px;
+	}
+}
+
+/* Phone */
+@media screen and (max-width: 576px) {
+	.enter-phone .phone {
+		width: 100%;
+	}
+	.input-phone {
+		padding-right: 0;
+		font-size: 14px;
+	}
+	.type-your {
+		width: 100%;
+	}
+	.dashboard {
+		padding: 10px 25px;
+	}
+	.active {
+		display: none;
+	}
+	.icon {
+		width: fit-content;
+		margin: auto;
+		margin: 0;
+	}
+	.log-out {
+		font-size: 14px;
+	}
+	.log-out p {
+		margin-left: 0 !important;
+		display: none;
+	}
+	.icon > p {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 390px) {
+	footer .coba {
+		text-align: center;
+	}
+}
