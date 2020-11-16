@@ -121,6 +121,9 @@ nav {
 	border: 0;
 	border-bottom: 1px solid rgba(169, 169, 169, 0.6);
 }
+input.input-phone {
+	outline: none;
+}
 /* Button */
 .btn-continue {
 	display: flex;
